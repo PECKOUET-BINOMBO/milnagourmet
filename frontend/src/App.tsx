@@ -1,5 +1,6 @@
 import Navbar from './components/navbar'
 import { Banier } from './components/banier'
+import { Categories } from './components/categories'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
        <Navbar />
        <Banier />
+       <Categories />
     </>
   )
 }
